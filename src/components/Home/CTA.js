@@ -22,16 +22,21 @@ function CTA(props) {
                     </p>
 
                     <div class="mt-6 md:mt-8">
-                        <NavLink to={props?.link} className="inline-block rounded bg-primary px-12 py-3 text-sm font-medium text-white transition hover:bg-purple-800 focus:outline-none">
-                        {/* <a
+                        {props?.link[0] !== "/" ? (
+                            <a
                             target={props?.target ? '_blank' : ''}
                             rel="noopener noreferrer"
                             href={props?.link}
-                        > */}
-                            {/* Learn More About HOSA */}
+                            className="inline-block rounded bg-primary px-12 py-3 text-sm font-medium text-white transition hover:bg-purple-800 focus:outline-none"
+                        >
                             {props?.button}
-                        {/* </a> */}
+                        </a>
+                        ) : (
+                            <NavLink to={props?.link} className="inline-block rounded bg-primary px-12 py-3 text-sm font-medium text-white transition hover:bg-purple-800 focus:outline-none">
+                            {props?.button}
                         </NavLink>
+                        )    
+                        }
                     </div>
                 </div>
             </div>
