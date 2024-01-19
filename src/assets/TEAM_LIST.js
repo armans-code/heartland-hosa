@@ -59,7 +59,7 @@ export const TEAM_MEMBERS = [
             "Hi my name Joel Johnson and Im a Senior at Winter Haven High School. I will be the Heartland Region's Historian for the 2023-2024 School Year. Besides HOSA i'm also involved in FFA. When i'm not doing school or driving everyone everywhere(safely) I'm practicing the piano or talking and hanging out with my friends. Fair warning i have a loud personality and hope to use it to get you excited for HOSA and all it has to offer. Thank you for the Opportunity to serve you all and can't wait to meet you all!!",
     },
     {
-        fullName: 'Tanvi Handoo',
+        fullName: 'Zarah Kerawala',
         title: 'Secretary',
         image: zarah,
         description:

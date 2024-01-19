@@ -63,7 +63,7 @@ function Footer() {
                         <p className="text-black">
                             Made with ❤ by&nbsp;
                             <a
-                                href="https://github.com/armans-code"
+                                href="https://www.linkedin.com/in/arman-kumaraswamy-80bba5244/"
                                 target="_blank"
                                 rel="noopener noreferrer"
                                 className={`text-pink-500 underline`}

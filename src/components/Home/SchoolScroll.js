@@ -11,7 +11,7 @@ function SchoolScroll({ gray }) {
                         'font-semibold w-24 opacity-60 hover:opacity-100 text-center mx-10 grayscale brightness-100 contrast-100 hover:grayscale-0 transition-all'
                     }
                     src={school}
-                    alt={'school_logo'}
+                    alt={school}
                 />
             ))}
         </Marquee>

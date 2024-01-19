@@ -1,4 +1,5 @@
 import React from 'react';
+import { NavLink } from 'react-router-dom';
 
 function CTA(props) {
     return (
@@ -21,15 +22,16 @@ function CTA(props) {
                     </p>
 
                     <div class="mt-6 md:mt-8">
-                        <a
+                        <NavLink to={props?.link} className="inline-block rounded bg-primary px-12 py-3 text-sm font-medium text-white transition hover:bg-purple-800 focus:outline-none">
+                        {/* <a
                             target={props?.target ? '_blank' : ''}
                             rel="noopener noreferrer"
                             href={props?.link}
-                            class="inline-block rounded bg-primary px-12 py-3 text-sm font-medium text-white transition hover:bg-purple-800 focus:outline-none"
-                        >
+                        > */}
                             {/* Learn More About HOSA */}
                             {props?.button}
-                        </a>
+                        {/* </a> */}
+                        </NavLink>
                     </div>
                 </div>
             </div>
